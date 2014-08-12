@@ -1,0 +1,19 @@
+﻿Build started 11/3/2012 8:41:18 AM.
+     1>Project "C:\Users\Malvina\Documents\Visual Studio 2010\Projects\FoofLevelEditor\FoofLevelEditor\FoofLevelEditor.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\FoofLevelEditor.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         FoofLevelEditor.vcxproj -> C:\Users\Malvina\Documents\Visual Studio 2010\Projects\FoofLevelEditor\Debug\FoofLevelEditor.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\FoofLevelEditor.unsuccessfulbuild".
+         Touching "Debug\FoofLevelEditor.lastbuildstate".
+     1>Done Building Project "C:\Users\Malvina\Documents\Visual Studio 2010\Projects\FoofLevelEditor\FoofLevelEditor\FoofLevelEditor.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.19
