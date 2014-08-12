@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_root"
+    android:textSize="18sp"
+    android:padding="10px">
+
+        <Button android:id="@+id/resume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="12sp"
+            
+            android:text="Resume Game" />
+            
+        <Button android:id="@+id/restart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/resume"
+            android:textSize="12sp"
+            
+            android:text="Restart Level" />  
+            
+ 		<Button android:id="@+id/options"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/restart"
+            android:textSize="12sp"
+            
+            android:text="Options" />
+            
+ 		<Button android:id="@+id/quitmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/options"
+            android:textSize="12sp"
+            
+            android:text="Quit to World Map" />            
+	    <TextView android:id = "@+id/levelname"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Level X"
+	        android:layout_below="@id/quitmenu"
+	        android:layout_centerHorizontal="true"
+	        android:textSize="12sp"/>    
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layout_root"
+    android:paddingTop="0px"
+    android:paddingLeft="110sp"
+    android:paddingRight="110sp"
+    android:background="#00000000">
+	    <TextView android:id="@+id/lvlcomplete"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Level Complete!"
+	         android:layout_centerHorizontal="true"
+	        android:textSize="20sp"
+	        android:layout_marginBottom="5sp"/>
+	    
+	    <TextView android:id="@+id/lvlname"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Level X"
+	         android:gravity="center_horizontal"
+	        android:layout_centerHorizontal="true"
+	        android:textSize="14sp"
+	        android:textColor="#888888"
+	        android:layout_marginBottom="40sp"
+	        android:layout_below="@+id/lvlcomplete"/>
+	    	    
+			<TextView android:id="@+id/time"
+			    style="@style/EndText"
+			    android:layout_alignParentRight="true"
+		        android:text="99:99"
+		        android:layout_below="@+id/lvlname"/>
+			<TextView style="@style/EndText"
+		        android:text="Time:"
+		        android:layout_alignParentLeft="true"
+		        android:layout_below="@+id/lvlname"/>
+				    
+			<TextView android:id="@+id/timebonuspts"
+			    style="@style/EndText"
+			    android:layout_alignParentRight="true"
+		        android:text="9000"
+		        android:layout_below="@+id/time"/>
+			<TextView style="@style/EndText"
+		        android:text="Time Bonus:"
+		        android:layout_alignParentLeft="true"
+		        android:layout_below="@+id/time"/>
+			
+			<TextView android:id="@+id/bunniesfound"
+			    style="@style/EndText"
+			    android:layout_alignParentRight="true"
+		        android:text="0 out of 0"
+		        android:layout_below="@+id/timebonuspts"/>
+			<TextView style="@style/EndText"
+		        android:text="Bunnies Freed:"
+		        android:layout_alignParentLeft="true"
+		        android:layout_below="@+id/timebonuspts"/>
+						
+			<TextView android:id="@+id/secretsfound"
+			    style="@style/EndText"
+			    android:layout_alignParentRight="true"
+		        android:text="0 out of 0"
+		        android:layout_below="@+id/bunniesfound"/>
+			<TextView style="@style/EndText"
+		        android:text="Secrets Found:"
+		        android:layout_alignParentLeft="true"
+		        android:layout_below="@+id/bunniesfound"/>
+ 		<Button
+ 		    android:id="@+id/resume"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:gravity="center_horizontal"
+ 		    android:layout_centerHorizontal="true"
+ 		    android:layout_marginTop="23dp"
+ 		    android:text="Continue"
+ 		    android:textSize="12sp" 
+ 		    android:layout_below="@+id/secretsfound"/>
+            
+</RelativeLayout>

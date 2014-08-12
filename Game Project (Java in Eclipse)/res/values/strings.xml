@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FoofGame</string>
+    <string name="worldmap_name">LevelSelect</string>
+    <string name="test">TESTING</string>
+	<string-array name="LevelNames">
+	    <item>Rumble in the Jungle</item>
+	    <item>Snagglepuss</item>
+	    <item>Bitch Tamer</item>
+	    <item>Sexual Chocolate</item>
+	    <item>Candy Shop</item>
+	</string-array>
+</resources>

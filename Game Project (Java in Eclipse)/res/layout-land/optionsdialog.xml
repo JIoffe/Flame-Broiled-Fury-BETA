@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:id="@+id/layout_root"
+    android:textSize="18sp"
+    android:padding="10px">
+
+    <TextView android:id = "@+id/sfxlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SFX Volume:"
+        android:layout_alignParentLeft="true"
+        android:textSize="12sp"
+        />
+    <SeekBar android:id="@+id/sfxvolume"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+             android:layout_below="@id/sfxlabel"
+            android:max="100"
+            android:progress="0"
+            android:secondaryProgress="0"/>
+    
+     <TextView android:id = "@+id/bgmlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BGM Volume:"
+        android:layout_below="@id/sfxvolume"
+        android:layout_alignParentLeft="true"
+        android:textSize="12sp"
+        />
+    <SeekBar android:id="@+id/bgmvolume"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+             android:layout_below="@id/bgmlabel"
+            android:max="100"
+            android:progress="0"
+            android:secondaryProgress="0"/>
+        <Button android:id="@+id/resume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="12sp"
+            android:layout_below="@id/bgmvolume"
+            android:text="Resume Game" />   
+
+</RelativeLayout>
